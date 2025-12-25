@@ -102,22 +102,22 @@
 
         Up {
             bindings = <&kp UP>;
-            key-positions = <2 15>;
+            key-positions = <3 16>;
         };
 
         Left {
             bindings = <&kp LEFT>;
-            key-positions = <15 14>;
+            key-positions = <16 15>;
         };
 
         Down {
             bindings = <&kp DOWN>;
-            key-positions = <15 30>;
+            key-positions = <16 31>;
         };
 
         Right {
             bindings = <&kp RIGHT>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
         };
 
         SingleQuote {

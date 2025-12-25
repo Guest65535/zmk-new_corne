@@ -215,13 +215,13 @@ combos:
   k: '}'
 - p: [10, 11]
   k: F1
-- p: [2, 15]
+- p: [3, 16]
   k: $$mdi:arrow-up-bold$$
-- p: [15, 14]
+- p: [16, 15]
   k: $$mdi:arrow-left-bold$$
-- p: [15, 30]
+- p: [16, 31]
   k: $$mdi:arrow-down-bold$$
-- p: [15, 16]
+- p: [16, 17]
   k: $$mdi:arrow-right-bold$$
 - p: [39, 40]
   k: {t: '''', s: '"'}

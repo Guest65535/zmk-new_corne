@@ -45,10 +45,10 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: NUMPAD}
-  - {t: '$$mdi:keyboard-return$$', h: BT RGB}
+  - LEFT WIN
+  - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: /, s: '?'}
+  - {t: /, h: BT RGB, s: '?'}
   NUMPAD:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -70,7 +70,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '4'
   - {t: '5', s: '%'}
@@ -94,8 +94,8 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
@@ -193,9 +193,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
@@ -231,5 +231,3 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [42, 43]
   k: $$mdi:keyboard-tab$$
-- p: [20, 47]
-  k: $$mdi:mouse-right-click-outline$$
